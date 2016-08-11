@@ -1,0 +1,29 @@
+{
+  "name": "rafolio",
+  "version": "0.0.0",
+  "description": "Raf Tan Portfolio site",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js",
+    "prestart": "babel src --out-dir dist",
+    "start": "node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talwin88/rafolio.git"
+  },
+  "author": "singhthing@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/talwin88/rafolio/issues"
+  },
+  "homepage": "https://github.com/talwin88/rafolio#readme",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "nodemon": "^1.10.0"
+  }
+}
