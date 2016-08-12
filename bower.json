@@ -1,0 +1,19 @@
+{
+  "name": "rafolio",
+  "version": "0.0.0",
+  "homepage": "https://github.com/talwin88/rafolio#readme",
+  "authors": [
+    "Talwinder Singh <singhthing@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "~4.2.0"
+  }
+}

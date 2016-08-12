@@ -12,6 +12,7 @@ app.set('views', 'src/views/');
 
 // set the public root
 app.use('/public', express.static('public'));
+app.use('/build', express.static('build'));
 
 // use res.render to load up an ejs view file
 
