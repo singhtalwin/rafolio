@@ -1,24 +1,16 @@
+# System Generated Files
+.DS_Store
+.npm
+
 # Logs
 logs
 *.log
 npm-debug.log*
 
-# Runtime data
-pids
-*.pid
-*.seed
-
-# node-waf configuration
-.lock-wscript
-
-build/
-dist/
-
 # Dependency directories
+bower_components
 node_modules
 
-# Optional npm cache directory
-.npm
-
-# MacOS storage
-.DS_Store 
+# Project Generated files
+build/
+dist/
