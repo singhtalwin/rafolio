@@ -1,0 +1,133 @@
+/**
+ * Button
+ */
+.raf-btn {
+    border: 3px solid #175cff;
+    box-sizing: border-box;
+    color: #175cff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.95rem 0.6rem;
+}
+
+.raf-btn:hover {
+    background-color: #175cff;
+    color: #fff;
+}
+
+/* text button variant */
+.raf-btn__with-text {
+    padding: 2rem 1.4rem;
+}
+
+/**
+ * Text Link
+ */
+.raf-text-link {
+    color: #175cff;
+    text-decoration: none;
+}
+
+/* active link variant */
+.raf-text-link:active {
+    color: #b6b6b6;
+}
+
+/** 
+ * Hamburger Button 
+ */
+.raf-btn--hamburger {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 40px;
+}
+
+.raf-btn--hamburger::before,
+.raf-btn--hamburger::after {
+    content: "";
+}
+
+.raf-btn--hamburger::before,
+.raf-btn--hamburger::after,
+.raf-btn--hamburger span {
+    background-color: #1d60ff;
+    display: block;
+    height: 3px;
+    transition: 0.4s ease;
+    transition-property: transform, opacity;
+}
+
+.raf-btn--hamburger::before,
+.raf-btn--hamburger span {
+    margin-bottom: 3px;
+}
+
+/* hover state variant */
+.raf-btn--hamburger:hover::before,
+.raf-btn--hamburger:hover::after,
+.raf-btn--hamburger:hover span {
+    background-color: #fff;
+}
+
+/* open state variatiant */
+.raf-btn--hamburger[nav-open]::before {
+    transform: rotate(45deg);
+    transform-origin: 5px 3px;
+}
+
+.raf-btn--hamburger[nav-open]::after {
+    transform: rotate(-45deg);
+    transform-origin: 2px -2px;
+}
+
+.raf-btn--hamburger[nav-open] span {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+/**
+ * Arrow Button
+ */
+ .raf-btn--arrow {
+    height: 40px;
+    position: relative;
+    width: 40px;
+ }
+
+.raf-btn--arrow::before {
+    background-color: #1d60ff;
+    content: "";
+    height: 16px;
+    width: 2px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.raf-btn--arrow::after {
+    border: solid #1d60ff;
+    border-width: 2px 0 0 2px;
+    content: "";
+    height: 10px;
+    position: absolute;
+    top: 10px;
+    left: 11px;
+    transform: rotate(45deg);
+    width: 10px;
+}
+
+/* hover state variant */
+.raf-btn--arrow:hover::before {
+    background-color: #fff;
+}
+
+.raf-btn--arrow:hover::after {
+    border-color: #fff;
+}
+
+/* down arrow variant */
+.raf-btn--arrow--down {
+    transform: rotate(180deg);
+}
