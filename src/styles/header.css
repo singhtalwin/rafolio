@@ -36,7 +36,6 @@
 /* nav open variant */
 .raf-header-nav__links-list[open] {
     transform: translateX(0);
-    z-index: 100;
 }
 
 /**
@@ -53,10 +52,23 @@
 }
 
 /**
+ * Nav
+ */
+.raf-header-nav {
+    background-color: #ffffff;
+    left: 0;
+    padding: 32px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 101; 
+}
+
+/**
  * Nav Button
  */
 .raf-header-nav__btn {
-    left: 32px;
-    top: 32px;
-    z-index: 101;   
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1;
 }

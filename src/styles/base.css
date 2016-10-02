@@ -1,4 +1,8 @@
+/**
+ * Base Styles
+ */
 html {
+    font-family: 'RidleyGrotesk';
     font-size: 62.5%;
 }
 
@@ -8,7 +12,13 @@ body {
 }
 
 main {
-    padding-top: 10rem;
+    padding-top: 12rem;
+}
+
+@media (min-width: 1288px) {
+    main {
+        padding-top: 14rem;
+    }
 }
 
 h1, 
@@ -22,4 +32,54 @@ p {
 
 [hidden] {
     display: none !important;
+}
+
+/**
+ * Heading - Underlined
+ */
+.raf-heading--underlined {
+    padding-bottom: 13px;
+    position: relative;
+}
+
+.raf-heading--underlined::after {
+    background-color: #222222;
+    bottom: 0;
+    content: "";
+    height: 6px;
+    left: 0;
+    position: absolute;
+    width: 125px;
+}
+
+@media (min-width: 768px) {
+    .raf-heading--underlined::after {
+        width: 175px;
+    }
+}
+
+/*
+ * Section
+ */
+.raf-section:not(:last-child) {
+    margin-bottom: 75px;
+}
+
+@media (min-width: 768px) {
+    .raf-section:not(:last-child) {
+        margin-bottom: 150px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-section:not(:last-child) {
+        margin-bottom: 190px;
+    }
+}
+
+/*
+ * Image
+ */
+.raf-image {
+    max-width: 100%;
 }

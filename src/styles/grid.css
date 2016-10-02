@@ -17,3 +17,7 @@
         padding-right: calc(50% - 608px);
     }
 }
+
+.raf-container__span6 {
+    width: 50%;
+}

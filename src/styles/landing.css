@@ -1,0 +1,321 @@
+/**
+ * Landing Page
+ */
+.raf-landing-page {
+    background-color: #f2f2f2;
+}
+
+.raf-landing-page {
+    padding-bottom: 75px;
+}
+
+@media (min-width: 768px) {
+    .raf-landing-page {
+        padding-bottom: 150px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-landing-page {
+        padding-bottom: 190px;
+    }
+}
+
+/**
+ * Landing Section
+ */
+.raf-landing-section {
+    align-items: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*
+ * About Section
+ */
+.raf-about-section {
+    background-image: url('/public/images/bg_text_1.jpg');
+    background-position: right bottom;
+}
+
+/*
+ * About Text
+ */
+.raf-about-section__text {
+    position: relative;
+    z-index: 1;
+}
+
+@media (min-width: 768px) {
+    .raf-about-section__text {
+        margin-right: 24px;
+        width: 312px;
+    }  
+}
+
+@media (min-width: 1288px) {
+    .raf-about-section__text {
+        width: 488px;
+    }
+}
+
+/*
+ * About Image
+ */
+.raf-about-section__image { 
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .raf-about-section__image {
+        width: 312px;
+    }   
+}
+
+@media (min-width: 1288px) {
+    .raf-about-section__image {
+        width: 592px;
+    }   
+}
+
+/**
+ * About Image - Mountain
+ */
+.raf-about-section__image--mountain {
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+}
+
+@media (min-width: 768px) {
+    .raf-about-section__image--mountain {
+        transform: translate3d(56px, 56px, 0);
+    }   
+}
+
+@media (min-width: 1288px) {
+    .raf-about-section__image--mountain {
+        transform: translate3d(104px, 104px, 0);
+    }   
+}
+
+/*
+ * About Heading
+ */
+@media (min-width: 1288px) {
+    .raf-about-section__heading {
+        width: 696px;
+    }
+}
+
+/**
+ * Star Wars Section
+ */
+.raf-sw-section {
+    background-image: url('/public/images/bg_text_2.jpg'),
+        url('/public/images/work_1_bg.jpg');
+    background-position: left center, center;
+    background-size: contain, cover;
+}
+
+@media (min-width: 768px) {
+    .raf-sw-section {
+        flex-direction: row-reverse;
+    }  
+}
+
+/*
+ * Star Wars Text
+ */
+.raf-sw-section__text {
+
+}
+
+@media (min-width: 768px) {
+    .raf-sw-section__text {
+        width: 312px;
+    }  
+}
+
+@media (min-width: 1288px) {
+    .raf-sw-section__text {
+        margin-right: 24px;
+        width: 488px;
+    }
+}
+
+/*
+ * Star Wars Image
+ */
+.raf-sw-section__image {
+    
+}
+
+@media (min-width: 768px) {
+    .raf-sw-section__image {
+        margin-right: 80px;
+        width: 256px;
+    }   
+}
+
+@media (min-width: 1288px) {
+    .raf-sw-section__image {
+        margin-right: 132px;
+        width: 488px;
+    }   
+}
+
+/*
+ * Zuru Section
+ */
+.raf-zuru-section {
+    background-position: right bottom;
+    background-size: contain;
+}
+
+/*
+ * Zuru Text
+ */
+.raf-zuru-section__text {
+    
+}
+
+@media (min-width: 768px) {
+    .raf-zuru-section__text {
+        margin-right: 82px;
+        width: 312px;
+    }  
+}
+
+@media (min-width: 1288px) {
+    .raf-zuru-section__text {
+        margin-right: 240px;
+        width: 488px;
+    }
+}
+
+/*
+ * Zuru Image
+ */
+.raf-zuru-section__image { 
+    
+}
+
+@media (min-width: 768px) {
+    .raf-zuru-section__image {
+        width: 312px;
+    }   
+}
+
+@media (min-width: 1288px) {
+    .raf-zuru-section__image {
+        width: 488px;
+    }   
+}
+
+/*
+ * NDS Section
+ */
+.raf-nds-section {
+    background-image: url('/public/images/bg_text_3.jpg');
+    background-position: left top;
+    background-size: contain;
+}
+
+@media (min-width: 768px) {
+    .raf-nds-section {
+        flex-direction: row-reverse;
+    }  
+}
+
+/*
+ * NDS Text
+ */
+.raf-nds-section__text {
+    
+}
+
+@media (min-width: 768px) {
+    .raf-nds-section__text {
+        width: 312px;
+    }  
+}
+
+@media (min-width: 1288px) {
+    .raf-nds-section__text {
+        width: 488px;
+    }
+}
+
+/*
+ * NDS Image
+ */
+.raf-nds-section__image { 
+    
+}
+
+@media (min-width: 768px) {
+    .raf-nds-section__image {
+        margin-right: 82px;
+        width: 256px;
+    }   
+}
+
+@media (min-width: 1288px) {
+    .raf-nds-section__image {
+        margin-right: 240px;
+        width: 488px;
+    }   
+}
+
+/*
+ * Contact Section
+ */
+.raf-contact-section { 
+    background-image: url('/public/images/bg_text_4.jpg');
+    background-position: right bottom;
+    background-size: contain;
+}
+
+/*
+ * Contact Text
+ */
+.raf-contact-section__text {
+    
+}
+
+@media (min-width: 768px) {
+    .raf-contact-section__text {
+        margin-right: 82px;
+        width: 312px;
+    }  
+}
+
+@media (min-width: 1288px) {
+    .raf-contact-section__text {
+        margin-right: 140px;
+        width: 488px;
+    }
+}
+
+/*
+ * Contact Image
+ */
+.raf-contact-section__image { 
+    
+}
+
+@media (min-width: 768px) {
+    .raf-contact-section__image {
+        width: 256px;
+    }   
+}
+
+@media (min-width: 1288px) {
+    .raf-contact-section__image {
+        width: 488px;
+    }   
+}
