@@ -7,7 +7,10 @@
     color: #175cff;
     cursor: pointer;
     display: inline-block;
-    padding: 0.95rem 0.6rem;
+    margin-bottom: 40px;
+    padding: 9.5px 6px;
+    transition-duration: 0.4s;
+    transition-property: background-color, color, border-color;
 }
 
 .raf-btn:hover {
@@ -17,7 +20,18 @@
 
 /* text button variant */
 .raf-btn__with-text {
-    padding: 2rem 1.4rem;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@media (min-width: 1288px) {
+    .raf-btn__with-text {
+        font-size: 18px;
+        line-height: 24px;
+    }   
 }
 
 /**
@@ -39,7 +53,6 @@
 .raf-btn--hamburger {
     display: flex;
     flex-direction: column;
-    position: fixed;
     width: 40px;
 }
 

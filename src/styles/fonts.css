@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'RidleyGrotesk';
+  src: url('../public/fonts/RidleyGrotesk-Black.eot');
+  src: url('../public/fonts/RidleyGrotesk-Black.woff2') format('woff2'),
+       url('../public/fonts/RidleyGrotesk-Black.woff') format('woff'),
+       url('../public/fonts/RidleyGrotesk-Black.ttf') format('truetype'),
+       url('../public/fonts/RidleyGrotesk-Black.svg#RidleyGrotesk') format('svg'),
+       url('../public/fonts/RidleyGrotesk-Black.eot?#iefix') format('embedded-opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RidleyGrotesk';
+  src: url('../public/fonts/RidleyGrotesk-Light.eot');
+  src: url('../public/fonts/RidleyGrotesk-Light.woff2') format('woff2'),
+       url('../public/fonts/RidleyGrotesk-Light.woff') format('woff'),
+       url('../public/fonts/RidleyGrotesk-Light.ttf') format('truetype'),
+       url('../public/fonts/RidleyGrotesk-Light.svg#RidleyGrotesk') format('svg'),
+       url('../public/fonts/RidleyGrotesk-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
