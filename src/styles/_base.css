@@ -61,19 +61,20 @@ p {
 /*
  * Section
  */
-.raf-section:not(:last-child) {
-    margin-bottom: 75px;
+.raf-section {
+    padding-bottom: 35px;
+    padding-top: 40px;
 }
 
 @media (min-width: 768px) {
-    .raf-section:not(:last-child) {
-        margin-bottom: 150px;
+    .raf-section {
+        padding-bottom: 110px;
     }
 }
 
 @media (min-width: 1288px) {
-    .raf-section:not(:last-child) {
-        margin-bottom: 190px;
+    .raf-section {
+        padding-bottom: 150px;
     }
 }
 
