@@ -1,0 +1,72 @@
+/**
+ * Credits Section
+ */
+.raf-credits {
+    background-color: #f2f2f2;
+    padding-top: 35px;
+}
+
+@media (min-width: 768px) {
+    .raf-credits {
+        padding-top: 110px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-credits {
+        padding-top: 150px;
+    }
+}
+
+/**
+ * Credits Heading
+ */
+.raf-credits__heading {
+    text-align: center;
+}
+
+/**
+ * Credits Items
+ */
+.raf-credits__items {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+@media (min-width: 1288px) {
+    .raf-credits__items {
+        justify-content: center;
+    }
+}
+
+/**
+ * Credits Item
+ */
+.raf-credits__item {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .raf-credits__item {
+        flex-basis: 33.33%;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-credits__item {
+        flex-basis: 20%;
+    }
+}
+
+/**
+ * Credits Item Label
+ */
+.raf-credits__item--label {
+    color: #b6b6b6;
+    display: block;
+    text-transform: uppercase;
+}

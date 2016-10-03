@@ -1,0 +1,17 @@
+<!-- src/views/partials/credits.ejs -->
+
+<!-- Credits Section -->
+<section class="raf-container raf-section raf-credits">
+    <div class="raf-credits__text">
+        <h2 class="raf-credits__heading"><%= credits.title %></h2>
+        <div class="raf-credits__items">
+            <% credits.items.forEach(function(item) { %>
+                <p class="raf-credits__item">
+                    <span class="raf-credits__item--label"><%= item.label %></span>
+                    <span class="raf-credits__item--text"><%= item.text %></span>
+                </p>
+            <% }); %>
+        </div>
+        <%= credits.test %>
+    </div>
+</section>

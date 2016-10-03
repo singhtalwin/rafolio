@@ -1,0 +1,179 @@
+/**
+ * NDS Section
+ */
+.raf-nds-section {
+    text-align: center;
+}
+
+.raf-nds-section:not(:first-child) {
+    padding-top: 75px;
+}
+
+@media (min-width: 1288px) {
+    .raf-nds-section:not(:first-child) {
+        padding-top: 113px;
+    }
+}
+
+/*
+ * Section Copy
+ */
+.raf-nds-section__copy {
+    margin: 0 auto 55px auto;
+}
+
+@media (min-width: 768px) {
+    .raf-nds-section__copy {
+        margin-bottom: 75px;
+        width: 500px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-nds-section__copy {
+        width: 800px;
+    }
+}
+
+/**
+ * Section Heading
+ */
+.raf-nds-section__heading {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+@media (min-width: 768px) {
+    .raf-nds-section__heading {
+        width: 500px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-nds-section__heading {
+        width: 700px;   
+    }
+}
+
+/**
+ * NDS Overview
+ */
+.raf-nds-overview {
+    background-image: url('/public/images/nds_overview_bg_pattern.jpg');
+}
+
+/**
+ * Overview Heading
+ */
+.raf-nds-overview__heading::after {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*
+ * Board Section
+ */
+.raf-nds-board {
+    background-image: url('/public/images/nds_bb_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    padding-bottom: 0;
+}
+
+/**
+ * Board Heading
+ */
+.raf-nds-board__heading,
+.raf-nds-exmaple__heading {
+    margin-bottom: 15px;
+}
+
+@media (min-width: 1288px) {
+    .raf-nds-board__heading {
+        margin-bottom: 8px; 
+    }
+}
+
+/**
+ * Example Section
+ */
+.raf-nds-exmaple {
+    background-color: #f2f2f2;
+}
+
+/**
+ * Example Images
+ */
+.raf-nds-exmaple__image-example:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+@media (min-width: 1288px) {
+    .raf-nds-exmaple__image-example:not(:last-child) {
+        margin-bottom: 80px; 
+    }
+}
+
+/**
+ * Work Section
+ */
+.raf-nds-work {
+    background-color: #ff1933;
+    color: #ffffff;
+}
+
+/**
+ * Work Images
+ */
+.raf-nds-work__image {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media (min-width: 1288px) {
+    .raf-nds-work__image {
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+    }
+}
+
+.raf-nds-work__image-work {
+    margin-bottom: 40px;
+}
+
+@media (min-width: 1288px) {
+    .raf-nds-work__image-work {
+        margin-bottom: 80px; 
+    }
+}
+
+.raf-nds-work__image:last-child .raf-nds-work__image-work:last-child {
+    margin-bottom: 0;
+}
+
+/**
+ * Work Title
+ */
+.raf-nds-work__title {
+    text-transform: uppercase;
+}
+
+/**
+ * Results Section
+ */
+
+.raf-nds-results__items {
+    align-items: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.raf-nds-results__item-image {
+    margin-bottom: 20px;
+}
