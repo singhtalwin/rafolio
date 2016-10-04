@@ -5,16 +5,6 @@
     text-align: center;
 }
 
-.raf-nds-section:not(:first-child) {
-    padding-top: 75px;
-}
-
-@media (min-width: 1288px) {
-    .raf-nds-section:not(:first-child) {
-        padding-top: 113px;
-    }
-}
-
 /*
  * Section Copy
  */

@@ -66,6 +66,10 @@ p {
     padding-top: 40px;
 }
 
+.raf-section:not(:first-child) {
+    padding-top: 75px;
+}
+
 @media (min-width: 768px) {
     .raf-section {
         padding-bottom: 110px;
@@ -75,6 +79,10 @@ p {
 @media (min-width: 1288px) {
     .raf-section {
         padding-bottom: 150px;
+    }
+
+    .raf-section:not(:first-child) {
+        padding-top: 113px;
     }
 }
 

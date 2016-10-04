@@ -21,7 +21,7 @@
  */
 .raf-landing-about {
     background-image: url('/public/images/bg_text_1.jpg');
-    background-position: right bottom;
+    background-position: right center;
 }
 
 /*
@@ -101,8 +101,8 @@
 .raf-landing-sw {
     background-image: url('/public/images/bg_text_2.jpg'),
         url('/public/images/work_1_bg.jpg');
-    background-position: left center, center;
-    background-size: contain, cover;
+    background-position: left top, right center;
+    background-size: auto;
 }
 
 @media (min-width: 768px) {
@@ -155,9 +155,10 @@
 /*
  * Zuru Section
  */
-.raf-landing-zuru__text {
-    background-position: right bottom;
-    background-size: contain;
+.raf-landing-zuru {
+    background-image: url('/public/images/work_2_bg.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 /*
@@ -205,8 +206,8 @@
  */
 .raf-landing-nds {
     background-image: url('/public/images/bg_text_3.jpg');
-    background-position: left top;
-    background-size: contain;
+    background-position: left bottom 75px;
+
 }
 
 @media (min-width: 768px) {
@@ -260,8 +261,7 @@
  */
 .raf-landing-contact { 
     background-image: url('/public/images/bg_text_4.jpg');
-    background-position: right bottom;
-    background-size: contain;
+    background-position: right -50px bottom 75px;
 }
 
 /*
