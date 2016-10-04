@@ -1,0 +1,81 @@
+/*
+ * Section
+ */
+.raf-section {
+    padding-bottom: 35px;
+    padding-top: 40px;
+}
+
+.raf-section:not(:first-child) {
+    padding-top: 75px;
+}
+
+@media (min-width: 768px) {
+    .raf-section {
+        padding-bottom: 110px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-section {
+        padding-bottom: 150px;
+    }
+
+    .raf-section:not(:first-child) {
+        padding-top: 113px;
+    }
+}
+
+/* centered variant */
+.raf-section--centred {
+    text-align: center;
+}
+
+/*
+ * Section Copy
+ */
+.raf-section__copy {
+    margin: 0 auto 55px auto;
+}
+
+@media (min-width: 768px) {
+    .raf-section__copy {
+        margin-bottom: 75px;
+        width: 500px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-section__copy {
+        width: 800px;
+    }
+}
+
+/**
+ * Section Heading
+ */
+.raf-section__heading {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+@media (min-width: 768px) {
+    .raf-section__heading {
+        width: 500px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-section__heading {
+        width: 700px;   
+    }
+}
+
+/**
+ * Centered Heading
+ */
+.raf-section--centered__heading::after {
+    left: 50%;
+    transform: translateX(-50%);
+}

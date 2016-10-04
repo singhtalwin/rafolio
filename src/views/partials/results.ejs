@@ -1,0 +1,17 @@
+<!-- src/views/partials/results.ejs -->
+
+<!-- Results Section -->
+<section class="raf-container raf-section raf-section--centred raf-nds-section raf-results">
+    <div class="raf-credits__text">
+        <h2 class="raf-results__heading"><%= results.title %></h2>
+        <div class="raf-results__items">
+            <% results.items.forEach(function(item) { %>
+                <div class="raf-results__item">
+                    <img class="raf-results__item-image" src="<%= item.image %>" />
+                    <h4 class="raf-results__item-title"><%= item.label %></h4>
+                    <p><%= item.text %></p>
+                </div>
+            <% }); %>
+        </div>
+    </div>
+</section>

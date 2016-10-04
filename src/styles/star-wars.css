@@ -1,0 +1,127 @@
+/**
+ * Star Wars Overview
+ */
+.raf-sw-overview {
+    background-color: #f2f2f2;
+}
+
+/**
+ * Star Wars Challenge
+ */
+.raf-sw-challenge {
+    background-color: #f2f2f2;
+    padding-top: 0;
+}
+
+/**
+ * Design Items
+ */
+.raf-sw-design__items {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .raf-sw-design__items {
+        justify-content: space-between;
+        text-align: left;
+    }
+}
+
+/**
+ * Design Item
+ */
+.raf-sw-design__item {
+    margin-bottom: 36px;
+}
+
+@media (min-width: 768px) {
+    .raf-sw-design__item {
+        margin-bottom: 44px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-sw-design__item {
+        margin-bottom: 60px;
+    }
+}
+
+/**
+ * Design Item Title
+ */
+.raf-sw-design__item-title {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 1288px) {
+    .raf-sw-design__item--modal {
+        margin-bottom: 0;
+        margin-top: -175px;
+    }
+}
+
+.raf-sw-design__item--modal__image {
+    box-shadow: 0 5px 10px 0px rgba(0,0,0,0.4);
+}
+
+@media (min-width: 1288px) {
+    .raf-sw-design__item--timeline,
+    .raf-sw-design__item--modal {
+        flex-basis: 950px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-sw-design__item--chew {
+        margin-bottom: 0;
+        margin-top: -175px;
+    }
+}
+
+/**
+ * Inspiration Section
+ */
+.raf-sw-inspiration {
+    background-color: #f2f2f2;
+}
+
+@media (min-width: 1288px) {
+    .raf-sw-inspiration {
+        text-align: left;
+    }
+}
+
+/**
+ * Inspiration Items
+ */
+.raf-sw-inspiration__items {
+    align-items: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/**
+ * Inspiration Item
+ */
+ .raf-sw-inspiration__item {
+     margin-bottom: 36px;
+ }
+ 
+ @media (min-width: 1288px) {
+     .raf-sw-inspiration__item {
+         margin-bottom: 56px;
+     }
+ }
+
+/**
+ * Inspiration Item Title
+ */
+.raf-sw-inspiration__item-title {
+    margin-bottom: 0;
+}
+
+
