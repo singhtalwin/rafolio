@@ -3,6 +3,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 const nds = require('./models/nds');
+const starWars = require('./models/star-wars');
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
@@ -21,9 +22,14 @@ app.get('/', function(req, res) {
     res.render('pages/index');
 });
 
-// index page 
+// NDS page 
 app.get('/nds', function(req, res) {
     res.render('pages/nds', nds);
+});
+
+// Star Wars page 
+app.get('/star-wars', function(req, res) {
+    res.render('pages/star-wars', starWars);
 });
 
 app.listen(port);

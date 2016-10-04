@@ -1,0 +1,13 @@
+/**
+ * Results Section
+ */
+.raf-results__items {
+    align-items: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.raf-results__item-image {
+    margin-bottom: 20px;
+}

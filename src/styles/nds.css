@@ -1,64 +1,8 @@
 /**
- * NDS Section
- */
-.raf-nds-section {
-    text-align: center;
-}
-
-/*
- * Section Copy
- */
-.raf-nds-section__copy {
-    margin: 0 auto 55px auto;
-}
-
-@media (min-width: 768px) {
-    .raf-nds-section__copy {
-        margin-bottom: 75px;
-        width: 500px;
-    }
-}
-
-@media (min-width: 1288px) {
-    .raf-nds-section__copy {
-        width: 800px;
-    }
-}
-
-/**
- * Section Heading
- */
-.raf-nds-section__heading {
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-}
-
-@media (min-width: 768px) {
-    .raf-nds-section__heading {
-        width: 500px;
-    }
-}
-
-@media (min-width: 1288px) {
-    .raf-nds-section__heading {
-        width: 700px;   
-    }
-}
-
-/**
  * NDS Overview
  */
 .raf-nds-overview {
     background-image: url('/public/images/nds_overview_bg_pattern.jpg');
-}
-
-/**
- * Overview Heading
- */
-.raf-nds-overview__heading::after {
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 /*
@@ -151,19 +95,4 @@
  */
 .raf-nds-work__title {
     text-transform: uppercase;
-}
-
-/**
- * Results Section
- */
-
-.raf-nds-results__items {
-    align-items: flex-end;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.raf-nds-results__item-image {
-    margin-bottom: 20px;
 }
