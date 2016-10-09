@@ -1,9 +1,10 @@
 // server.js
 const express = require('express');
 const app = express();
-const port = 8080;
+const port = process.env.PORT || 80;
 const nds = require('./models/nds');
 const starWars = require('./models/star-wars');
+const zuru = require('./models/zuru');
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
@@ -30,6 +31,11 @@ app.get('/nds', function(req, res) {
 // Star Wars page 
 app.get('/star-wars', function(req, res) {
     res.render('pages/star-wars', starWars);
+});
+
+// Star Wars page 
+app.get('/zuru', function(req, res) {
+    res.render('pages/zuru', zuru);
 });
 
 app.listen(port);

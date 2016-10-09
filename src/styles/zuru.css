@@ -1,0 +1,483 @@
+/**
+ * Zuru Heading
+ */
+.raf-zuru-concept__heading,
+.raf-zuru-concept__heading,
+.raf-zuru-design__heading {
+    margin-bottom: 15px;
+}
+
+@media (min-width: 1288px) {
+    .raf-zuru-concept__heading,
+    .raf-zuru-concept__heading,
+    .raf-zuru-design__heading  {
+        margin-bottom: 8px; 
+    }
+}
+
+/**
+ * Zuru Overview
+ */
+.raf-zuru-overview {
+    background-color: #f2f2f2;
+    background-image: url('/public/images/zuru_overview_bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/**
+ * Zuru Challenge
+ */
+.raf-zuru-challenge {
+    background-color: #f2f2f2;
+}
+
+/**
+ * Zuru Concept
+ */
+.raf-zuru-concept {
+    background-image: url('/public/images/nds_overview_bg_pattern.jpg');
+}
+
+/**
+ * Challenge Images
+ */
+.raf-zuru-challenge__images {
+    position: relative;
+}
+
+/**
+ * Challenge Overlay Image
+ */
+.raf-zuru-challenge__image--overlay {
+    position: relative;
+    top: -75px;
+}
+
+@media (min-width: 768px) {
+    .raf-zuru-challenge__image--overlay {
+        left: 256px;
+        top: -28px;
+        position: absolute;
+    }  
+}
+
+@media (min-width: 1288px) {
+    .raf-zuru-challenge__image--overlay {
+        left: 640px;
+        top: -36px;
+    }
+}
+
+/**
+ * Concept Items
+ */
+.raf-zuru-concept__items {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .raf-zuru-concept__items {
+        margin-left: auto;
+        margin-right: auto;
+        width: 625px;
+    }  
+}
+
+@media (min-width: 1288px) {
+    .raf-zuru-concept__items {
+        width: 980px;
+    }
+}
+
+/**
+ * Concept Item
+ */
+.raf-zuru-concept__item {
+    position: relative;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .raf-zuru-concept__item {
+        width: 220px;
+    }
+
+    .raf-zuru-concept__item:nth-child(odd) {
+        margin-right: 160px;
+    }
+
+    .raf-zuru-concept__item::before,
+    .raf-zuru-concept__item::after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .raf-zuru-concept__item::before {
+        border-color: transparent;
+        border-left-color: #222222;
+        border-style: solid;
+        border-width: 6px 0px 6px 10px;
+        transform: translate3d(340px, 47px, 0);
+    }
+
+    .raf-zuru-concept__item::after {
+        background-color: #222222;
+        display: block;
+        height: 5px;
+        transform: translate3d(300px, 50px, 0);
+        width: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1287px) {
+    .raf-zuru-concept__item:nth-child(even)::before,
+    .raf-zuru-concept__item:nth-child(even)::after {
+        display: none;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-zuru-concept__item {
+        margin-bottom: 40px;
+    }
+
+    .raf-zuru-concept__item:nth-child(3) {
+        margin-right: 0;
+    }
+
+    .raf-zuru-concept__item:nth-child(4) {
+        order: 6;
+    }
+
+    .raf-zuru-concept__item:nth-child(5) {
+        order: 5;
+    }
+
+    .raf-zuru-concept__item:nth-child(6) {
+        order: 4;
+    }
+
+    .raf-zuru-concept__item:not(:nth-child(3)):not(:nth-child(4)) {
+        margin-right: 160px;
+    }
+
+    .raf-zuru-concept__item::before {
+        transform: translate3d(310px, 47px, 0);
+    }
+    .raf-zuru-concept__item::after {
+        transform: translate3d(270px, 50px, 0);
+    } 
+
+    .raf-zuru-concept__item:nth-child(3)::after,
+    .raf-zuru-concept__item:nth-child(4)::before,
+    .raf-zuru-concept__item:nth-child(4)::after,
+    .raf-zuru-concept__item:nth-child(5)::after {
+        display: none;
+    }
+
+    .raf-zuru-concept__item:nth-child(3)::before {
+        border-style: dashed;
+        border-width: 0 1px 0 1px;
+        border-color: #222222;
+        height: 58px;
+        transform: translate3d(100px, 172px, 0);
+    }
+
+    .raf-zuru-concept__item:nth-child(5)::before {
+        border-style: dashed;
+        border-width: 1px 0 1px 0;
+        border-color: #222222;
+        transform: translate3d(225px, 47px, 0);
+        width: 105px;
+    }
+}
+
+/**
+ * Concept Copy
+ */
+.raf-zuru-concept__item-copy {
+    align-items: flex-start;
+    display: flex;
+    padding-top: 16px;
+}
+
+.raf-zuru-concept__item-copy[index]::before {
+    background-color: #181818;
+    color: #ffffff;
+    content: attr(index);
+    display: block;
+    font-weight: 600;
+    flex-shrink: 0;
+    line-height: 28px;
+    margin-right: 16px;
+    text-align: center;
+    width: 28px;
+}
+
+.raf-zuru-concept__item-copy:not([index])::before {
+    background-image: url('/public/images/zuru_concept_icon3a.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    flex-shrink: 0;
+    height: 52px;
+    margin-right: 16px;
+    width: 46px;
+}
+
+/**
+ * Design
+ */
+.raf-zuru-design {
+    background-color: #b53838;
+    background-image: url('/public/images/zuru_design_iceberg.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+/**
+ * Design Items
+ */
+.raf-zuru-design__items {
+
+}
+
+/**
+ * Design Item
+ */
+.raf-zuru-design__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/**
+ * Design Item Work
+ */
+.raf-zuru-design__item-work {
+    position: relative;
+}
+
+/**
+ * Design Item Title
+ */
+.raf-zuru-design__item-title {
+    flex-basis: 100%;
+}
+
+/**
+ * Design Item Image
+ */
+.raf-zuru-design__item-image {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 1288px) {
+    .raf-zuru-design__item-image {
+        margin-bottom: 28px;
+    }
+}
+
+/**
+ * Design Item Platform Copy
+ */
+@media (min-width: 1288px) {
+    .raf-zuru-design__item--platform-copy {
+        position: absolute;
+        right: -215px;
+        text-align: left;
+        top: 340px;
+        width: 180px;
+    }
+
+    .raf-zuru-design__item--platform-copy::before {
+        border-color: rgba(255, 255, 255, 0.5) rgba(255, 255, 255, 0.5) transparent transparent;
+        border-style: dashed;
+        border-width: 1px;
+        content: "";
+        height: 25px;
+        left: -38px;
+        position: absolute;
+        top: -32px;
+        width: 100px;
+    }
+}
+
+/**
+ * Design Item Group
+ */
+.raf-zuru-design__item-group {
+
+}
+
+@media (min-width: 768px) {
+    .raf-zuru-design__item-group {
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+    }  
+}
+
+@media (min-width: 1288px) {
+    .raf-zuru-design__item-group {
+        position: absolute;
+        width: 325px;
+    }
+}
+
+@media (min-width: 1288px) {
+    /**
+     * Design Item Title
+     */
+    .raf-zuru-design__item-title {
+        flex-basis: 800px;
+        text-align: left;
+    }
+
+    /**
+     * Group Copy
+     */
+    .raf-zuru-design__item-group-copy {
+        position: relative;
+        text-align: left;
+        width: 180px;
+    }
+
+    .raf-zuru-design__item-group-copy::before,
+    .raf-zuru-design__item-group-copy::after {
+        border-color: rgba(255, 255, 255, 0.5);
+        border-style: dashed;
+        border-width: 0;
+        content: "";
+        position: absolute;
+    }
+
+    /**
+     * Design Item Request Group
+     */
+    .raf-zuru-design__item-group--request {
+        left: -210px;
+        top: 350px;
+    }
+
+    .raf-zuru-design__item-group--request-copy::before {
+        border-width: 1px 0 0 1px;
+        height: 30px;
+        left: 0;
+        top: -62px;
+        width: 26px;
+    }
+
+    .raf-zuru-design__item-group--request-copy::after {
+        border-width: 0 0 1px 1px;
+        bottom: -485px;
+        height: 450px;
+        left: 85px;
+        width: 88px;
+    }
+
+    /**
+     * Traveller Group
+     */
+    .raf-zuru-design__item-group--traveller {
+        right: 0;
+        top: 700px;
+        transform: translateX(50%);
+    }
+
+    .raf-zuru-design__item-group--traveller-copy {
+        left: 225px;
+    }
+
+    .raf-zuru-design__item-group--traveller-copy::before {
+        border-width: 1px 1px 0 0;
+        height: 30px;
+        right: 0;
+        top: -52px;
+        width: 26px;
+    }
+
+    /**
+     * Product Group
+     */
+    .raf-zuru-design__item-group--product {
+        right: 0;
+        top: 215px;
+        transform: translateX(50%);
+    }
+
+    .raf-zuru-design__item-group--product-copy {
+        left: 225px;
+    }
+
+    .raf-zuru-design__item-group--product-copy::before {
+        border-width: 1px 1px 0 0;
+        height: 30px;
+        right: 0;
+        top: -52px;
+        width: 26px;
+    }
+
+    .raf-zuru-design__item-group--product-copy::after {
+        border-width: 0 1px 1px 0;
+        bottom: -60px;
+        height: 50px;
+        right: 0;
+        width: 770px;
+    }
+
+    /**
+     * Filter Group
+     */
+    .raf-zuru-design__item-group--filter {
+        left: 0;
+        top: 225px;
+        transform: translateX(-210px);
+    }
+
+    .raf-zuru-design__item-group--filter-copy::before {
+        border-width: 1px 0 0 1px;
+        height: 30px;
+        left: 0;
+        top: -62px;
+        width: 26px;
+    }
+
+    /**
+     * Track Group
+     */
+    .raf-zuru-design__item-group--track {
+        right: 0;
+        top: 575px;
+        transform: translateX(50%);
+    }
+
+    .raf-zuru-design__item-group--track-copy {
+        transform: translate3d(100%, -450px, 0);   
+    }
+
+    .raf-zuru-design__item-group--track-copy::before {
+        border-width: 1px 1px 0 0;
+        height: 30px;
+        right: 0;
+        top: -52px;
+        width: 26px;
+    }
+}
+
+/**
+ * Zuru More Text
+ */
+.raf-zuru-design__text-more {
+    padding: 80px 0;
+}

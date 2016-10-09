@@ -37,7 +37,7 @@
             </div>
         </section>
 
-        <!-- Example Section -->
+        <!-- Design Section -->
         <section class="raf-container raf-section raf-section--centred raf-sw-section raf-sw-design">
             <div class="raf-sw-design__text">
                 <h2 class="raf-sw-section__heading raf-sw-design__heading">
@@ -97,7 +97,9 @@
             </div>
         </section>
 
-        <% include ../partials/results %>
+        <% if (typeof results !== 'undefined') { %>
+            <% include ../partials/results %>
+        <% } %>
     </main>
 
     <% include ../partials/credits %>

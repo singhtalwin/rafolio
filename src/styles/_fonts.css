@@ -12,6 +12,18 @@
 
 @font-face {
   font-family: 'RidleyGrotesk';
+  src: url('../public/fonts/RidleyGrotesk-Bold.eot');
+  src: url('../public/fonts/RidleyGrotesk-Bold.woff2') format('woff2'),
+       url('../public/fonts/RidleyGrotesk-Bold.woff') format('woff'),
+       url('../public/fonts/RidleyGrotesk-Bold.ttf') format('truetype'),
+       url('../public/fonts/RidleyGrotesk-Bold.svg#RidleyGrotesk') format('svg'),
+       url('../public/fonts/RidleyGrotesk-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RidleyGrotesk';
   src: url('../public/fonts/RidleyGrotesk-Light.eot');
   src: url('../public/fonts/RidleyGrotesk-Light.woff2') format('woff2'),
        url('../public/fonts/RidleyGrotesk-Light.woff') format('woff'),

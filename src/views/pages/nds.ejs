@@ -75,7 +75,9 @@
             </div>
         </section>
 
-        <% include ../partials/results %>
+        <% if (typeof results !== 'undefined') { %>
+            <% include ../partials/results %>
+        <% } %>
     </main>
 
     <% include ../partials/credits %>
