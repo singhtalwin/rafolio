@@ -1,7 +1,9 @@
 .raf-sub-nav {
     left: 44px;
     position: fixed;
-    top: 320px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
 }
 
 .raf-sub-nav__item {

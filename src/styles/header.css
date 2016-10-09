@@ -3,7 +3,7 @@
  */
  .raf-header-nav__links-list {
     align-items: center;
-    background-color: #fff;
+    background-color: #ffffff;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
     bottom: 0;
@@ -55,13 +55,17 @@
  * Nav
  */
 .raf-header-nav {
-    background-color: #ffffff;
     left: 0;
     padding: 32px;
     position: fixed;
     top: 0;
+    transition: background-color 0.4s;
     width: 100%;
     z-index: 101; 
+}
+
+.raf-header-nav[overlayed] {
+    background-color: #f2f2f2;
 }
 
 /**
