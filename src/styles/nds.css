@@ -1,8 +1,22 @@
 /**
+ * NDS Page
+ */
+.raf-nds-page {
+    padding-top: 0;
+}
+
+/**
  * NDS Overview
  */
 .raf-nds-overview {
     background-image: url('/public/images/nds_overview_bg_pattern.jpg');
+    padding-top: 12rem;
+}
+
+@media (min-width: 1288px) {
+    .raf-nds-overview {
+        padding-top: 14rem;
+    }
 }
 
 /*

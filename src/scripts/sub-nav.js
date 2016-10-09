@@ -30,7 +30,7 @@
         return (sectionTop < scrollBottom) && (sectionBottom > scrollTop + scrollBuffer);
     }
 
-    let setActiveNavItem = debounce(() => {
+    const setActiveNavItem = debounce(() => {
         const activeAttr = 'active';
         const sections = document.querySelectorAll('.raf-section');
         const subNavItems = document.querySelectorAll('.raf-sub-nav__item');

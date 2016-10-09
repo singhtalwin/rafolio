@@ -1,6 +1,10 @@
 /**
  * Results Section
  */
+.raf-results {
+    background-color: #ffffff;
+}
+
 .raf-results__items {
     align-items: flex-end;
     display: flex;

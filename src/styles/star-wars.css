@@ -2,15 +2,21 @@
  * Star Wars Overview
  */
 .raf-sw-overview {
-    background-color: #f2f2f2;
+    
 }
 
 /**
  * Star Wars Challenge
  */
 .raf-sw-challenge {
-    background-color: #f2f2f2;
     padding-top: 0;
+}
+
+/**
+ * Star Wars Design
+ */
+.raf-sw-design {
+    background-color: #ffffff;
 }
 
 /**

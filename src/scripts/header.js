@@ -20,8 +20,20 @@
         } else {
             this.setAttribute(openAttr, '');
         }
-    } 
+    }
+
+    const headerNavToggleOverlayed = debounce(() => {
+        const headerNav = document.querySelector('.raf-header-nav');
+        const overlayedAttr = 'overlayed';
+
+        if (window.scrollY > 150) {
+            headerNav.setAttribute(overlayedAttr, '');
+        } else {
+            headerNav.removeAttribute(overlayedAttr);
+        }
+    });
 
     headerNavBtn.addEventListener('click', toggleNavLinks.bind(headerNavLinks));
     headerNavBtn.addEventListener('click', toggleNavBtnState);
+    window.addEventListener('scroll', headerNavToggleOverlayed);
 })(window);
