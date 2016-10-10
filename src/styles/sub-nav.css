@@ -6,6 +6,12 @@
     z-index: 10;
 }
 
+@media (max-width: 1287px) {
+    .raf-sub-nav {
+        display: none;
+    }
+}
+
 .raf-sub-nav__item {
     border: 3px solid #b6b6b6;
     box-sizing: border-box;

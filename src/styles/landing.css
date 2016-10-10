@@ -101,8 +101,7 @@
 .raf-landing-sw {
     background-image: url('/public/images/bg_text_2.jpg'),
         url('/public/images/work_1_bg.jpg');
-    background-position: left top, right center;
-    background-size: auto;
+    background-position: right 850px top, left 500px center;
 }
 
 @media (min-width: 768px) {
@@ -156,10 +155,71 @@
  * Zuru Section
  */
 .raf-landing-zuru {
-    background-image: url('/public/images/work_2_bg.jpg');
-    background-position: center;
-    background-size: cover;
+    color: #ffffff;
+    overflow: hidden;
+    position: relative;
 }
+
+/**
+ * Zuru Section Background
+ */
+.raf-landing-zuru-bg,
+.raf-landing-zuru-fg {
+    position: absolute;
+    z-index: -2
+}
+
+.raf-landing-zuru-bg {
+    left: -215px;
+    top: 25px;
+    width: 821px;
+}
+
+@media (min-width: 768px) {
+    .raf-landing-zuru-bg {
+        left: -105px;
+    }
+}
+
+@media (min-width: 1024px) {    
+    .raf-landing-zuru-bg {
+        left: 20px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-landing-zuru-bg {
+        left: -220px;
+        width: 1547px;
+    }
+}
+
+.raf-landing-zuru-fg {
+    /*opacity: 0.2;*/
+    left: -85px;
+    top: 24px;
+    width: 480px;
+}
+
+@media (min-width: 768px) {
+    .raf-landing-zuru-fg {
+        left: 25px;
+    }
+}
+
+@media (min-width: 1024px) {    
+    .raf-landing-zuru-fg {
+        left: 150px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-landing-zuru-fg {
+        left: 25px;
+        width: 907px;
+    }
+}
+
 
 /*
  * Zuru Text
@@ -182,6 +242,22 @@
     }
 }
 
+/**
+ * Zuru Heading
+ * 
+ */
+.raf-landing-zuru__heading::after {
+    background-color: #ffffff;
+}
+
+/**
+ * Zuru Text Button
+ */
+.raf-landing-zuru__text-btn {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
 /*
  * Zuru Image
  */
@@ -191,7 +267,7 @@
 
 @media (min-width: 768px) {
     .raf-landing-zuru__image {
-        width: 312px;
+        width: 256px;
     }   
 }
 
@@ -206,7 +282,7 @@
  */
 .raf-landing-nds {
     background-image: url('/public/images/bg_text_3.jpg');
-    background-position: left bottom 75px;
+    background-position: right 850px bottom 75px;
 
 }
 
@@ -261,7 +337,7 @@
  */
 .raf-landing-contact { 
     background-image: url('/public/images/bg_text_4.jpg');
-    background-position: right -50px bottom 75px;
+    background-position: left 1000px bottom 75px;
 }
 
 /*
