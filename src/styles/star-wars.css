@@ -146,12 +146,6 @@
     background-color: #f2f2f2;
 }
 
-@media (min-width: 1288px) {
-    .raf-sw-inspiration {
-        text-align: left;
-    }
-}
-
 /**
  * Inspiration Items
  */
@@ -160,6 +154,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+@media (min-width: 1288px) {
+    .raf-sw-inspiration__items {
+        text-align: left;
+    }
 }
 
 /**

@@ -1,21 +1,4 @@
 /**
- * Zuru Heading
- */
-.raf-zuru-concept__heading,
-.raf-zuru-concept__heading,
-.raf-zuru-design__heading {
-    margin-bottom: 15px;
-}
-
-@media (min-width: 1288px) {
-    .raf-zuru-concept__heading,
-    .raf-zuru-concept__heading,
-    .raf-zuru-design__heading  {
-        margin-bottom: 8px; 
-    }
-}
-
-/**
  * Zuru Overview
  */
 .raf-zuru-overview {
@@ -273,6 +256,7 @@
  */
 .raf-zuru-design__item-title {
     flex-basis: 100%;
+    margin-bottom: 20px;
 }
 
 /**

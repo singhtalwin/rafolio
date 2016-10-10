@@ -31,6 +31,7 @@ h2,
 h3,
 h4,
 h5,
+h6,
 p {
     margin-top: 0;
 }
@@ -41,30 +42,6 @@ strong {
 
 [hidden] {
     display: none !important;
-}
-
-/**
- * Heading - Underlined
- */
-.raf-heading--underlined {
-    padding-bottom: 13px;
-    position: relative;
-}
-
-.raf-heading--underlined::after {
-    background-color: #222222;
-    bottom: 0;
-    content: "";
-    height: 6px;
-    left: 0;
-    position: absolute;
-    width: 125px;
-}
-
-@media (min-width: 768px) {
-    .raf-heading--underlined::after {
-        width: 175px;
-    }
 }
 
 /*
