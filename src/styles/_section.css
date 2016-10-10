@@ -47,6 +47,7 @@
 
 @media (min-width: 1288px) {
     .raf-section__copy {
+        margin-bottom: 115px;
         width: 800px;
     }
 }
