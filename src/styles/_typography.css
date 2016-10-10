@@ -1,4 +1,4 @@
-h2 {
+h1 {
     font-size: 40px;
     line-height: 40px;
     letter-spacing: -0.025em;
@@ -7,20 +7,20 @@ h2 {
 }
 
 @media (min-width: 768px) {
-    h2 {
+    h1 {
         font-size: 52px;
         line-height: 52px;
     }
 }
 
 @media (min-width: 1288px) {
-    h2 {
+    h1 {
         font-size: 64px;
         line-height: 64px;
     }
 }
 
-.h2a {
+h2 {
     font-size: 30px;
     line-height: 30px;
     margin-bottom: 36px;
@@ -28,14 +28,14 @@ h2 {
 }
 
 @media (min-width: 768px) {
-    .h2a {
+    h2 {
         font-size: 38px;
         line-height: 38px;
     }
 }
 
 @media (min-width: 1288px) {
-    .h2a {
+    h2 {
         font-size: 50px;
         line-height: 50px;
     }
@@ -121,4 +121,37 @@ p {
         letter-spacing: -0.025em;
         line-height: 24px;
     }
+}
+
+/* underlined variant */
+.raf-heading--underlined {
+    padding-bottom: 13px;
+    position: relative;
+}
+
+.raf-heading--underlined::after {
+    background-color: #222222;
+    bottom: 0;
+    content: "";
+    height: 6px;
+    left: 0;
+    position: absolute;
+    width: 125px;
+}
+
+@media (min-width: 768px) {
+    .raf-heading--underlined::after {
+        width: 175px;
+    }
+}
+
+/* subheading variant */
+.raf-heading--before-subheading {
+    margin-bottom: 0;
+}
+
+/* centered variant */
+.raf-heading--centered::after {
+    left: 50%;
+    transform: translateX(-50%);
 }

@@ -31,20 +31,6 @@
 }
 
 /**
- * Board Heading
- */
-.raf-nds-board__heading,
-.raf-nds-exmaple__heading {
-    margin-bottom: 15px;
-}
-
-@media (min-width: 1288px) {
-    .raf-nds-board__heading {
-        margin-bottom: 8px; 
-    }
-}
-
-/**
  * Example Section
  */
 .raf-nds-exmaple {
@@ -108,5 +94,6 @@
  * Work Title
  */
 .raf-nds-work__title {
+    margin-bottom: 20px;
     text-transform: uppercase;
 }

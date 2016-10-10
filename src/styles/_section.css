@@ -71,11 +71,3 @@
         width: 700px;   
     }
 }
-
-/**
- * Centered Heading
- */
-.raf-section--centered__heading::after {
-    left: 50%;
-    transform: translateX(-50%);
-}
