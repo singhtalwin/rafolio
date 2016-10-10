@@ -9,15 +9,8 @@
     position: relative;
 }
 
-@media (min-width: 768px) {
-    .raf-footer {
-        border-bottom: 56px solid #f2f2f2;
-    }
-}
-
 @media (min-width: 1288px) {
     .raf-footer {
-        border-bottom-width: 134px;
         padding-bottom: 100px;
         padding-top: 100px;
     }
