@@ -72,3 +72,12 @@
         width: 700px;   
     }
 }
+
+.raf-fadeded-item {
+    opacity: 0;
+    transition: opacity 0.4s 0.1s ease;
+}
+
+.raf-fadeded-item[show-faded-item] {
+    opacity: 1;
+}

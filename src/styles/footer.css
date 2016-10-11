@@ -20,6 +20,7 @@
  * Back To Top Button
  */
 .raf-footer__back-to-top {
+    display: none;
     position: absolute;
     left: 36px;
     top: 50%;

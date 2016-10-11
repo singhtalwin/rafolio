@@ -37,11 +37,15 @@
         let match = false;
 
         for(let i=0; i < sections.length; i++) {
-            if (!match && sectionInView.call(sections[i])) {
-                subNavItems[i].setAttribute(activeAttr, '');
+            const subNavItem = subNavItems[i];
+            const section = sections[i];
+            const inView = sectionInView.call(section);
+
+            if (!match && inView) {
+                subNavItem.setAttribute(activeAttr, '');
                 match = true;
             } else {
-                subNavItems[i].removeAttribute(activeAttr);
+                subNavItem.removeAttribute(activeAttr);
             }
         }
     }, 50);
