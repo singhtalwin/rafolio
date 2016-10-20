@@ -105,7 +105,9 @@
         <% } %>
     </main>
 
-    <% include ../partials/credits %>
+    <% if (typeof credits !== 'undefined') { %>
+        <% include ../partials/credits %>
+    <% } %>
 
     <% include ../partials/footer %>
     
