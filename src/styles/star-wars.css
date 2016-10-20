@@ -6,6 +6,16 @@
 }
 
 /**
+ * Overview Image
+ */
+.raf-sw-overview__image {
+    background-image: url('/public/images/swbf_overview_bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+/**
  * Star Wars Challenge
  */
 .raf-sw-challenge {
