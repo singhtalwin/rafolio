@@ -44,7 +44,8 @@
 }
 
 /* active link variant */
-.raf-text-link:active {
+.raf-text-link:active,
+.raf-text-link[active] {
     color: #b6b6b6;
 }
 
