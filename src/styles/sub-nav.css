@@ -1,3 +1,6 @@
+/**
+ * Sub Nav
+ */
 .raf-sub-nav {
     left: 44px;
     position: fixed;
@@ -12,19 +15,62 @@
     }
 }
 
+/**
+ * Sub Nav Item
+ */
 .raf-sub-nav__item {
-    border: 3px solid #b6b6b6;
+    background-clip: content-box;
+    background-color: #ffffff;
     box-sizing: border-box;
     display: block;
     height: 16px;
     margin-bottom: 10px;
+    overflow: hidden;
+    padding: 3px;
+    position: relative;
     transition-duration: 0.4s;
-    transition-property: background-color, color, border-color;
+    transition-property: background-color;
     width: 16px;
 }
 
-.raf-sub-nav__item:hover,
+.raf-sub-nav__item::before,
+.raf-sub-nav__item::after {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.raf-sub-nav__item::before {
+    background: linear-gradient(135deg, #175cff 50%, transparent 50.01%);
+    transition: transform 0.4s ease;
+    width: 300%;
+    z-index: -1;
+}
+
+.raf-sub-nav__item::after {
+    border: 3px solid #b6b6b6;
+    box-sizing: border-box;
+    transition: border-color;
+    width: 100%;
+    z-index: -2;
+}
+
+/* hover variant */
+.raf-sub-nav__item:hover {
+
+}
+
+.raf-sub-nav__item:not(:hover)::before {
+  transform: translateX(-70%);
+}
+
+/* active variant */
 .raf-sub-nav__item[active] {
     background-color: #175cff;
+}
+
+.raf-sub-nav__item[active]::after {
     border-color: #175cff;
 }
