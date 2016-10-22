@@ -21,8 +21,8 @@
  */
 .raf-footer__back-to-top {
     display: none;
-    position: absolute;
     left: 36px;
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }

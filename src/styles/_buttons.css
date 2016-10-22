@@ -8,18 +8,38 @@
     cursor: pointer;
     display: inline-block;
     margin-bottom: 40px;
+    overflow: hidden;
     padding: 9.5px 6px;
+    position: relative;
     transition-duration: 0.4s;
-    transition-property: background-color, color, border-color;
+    transition-property: border-color, color;
+    transition-timing-function: ease;
+    z-index: 1;
 }
 
+.raf-btn::before {
+    background: linear-gradient(135deg, #175cff 50%, transparent 50.01%);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: transform 0.4s ease;
+    width: 300%;
+    z-index: -1;
+}
+
+/* hover variant */
 .raf-btn:hover {
-    background-color: #175cff;
-    color: #fff;
+    color: #ffffff;
+}
+
+.raf-btn:not(:hover)::before {
+    transform: translateX(-70%);
 }
 
 /* text button variant */
-.raf-btn__with-text {
+.raf-btn--with-text {
     font-size: 16px;
     font-weight: bold;
     line-height: 24px;
@@ -29,10 +49,24 @@
 }
 
 @media (min-width: 1288px) {
-    .raf-btn__with-text {
+    .raf-btn--with-text {
         font-size: 18px;
         line-height: 24px;
     }   
+}
+
+/* light varaint */
+.raf-btn--light {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.raf-btn--light:hover {
+    color: #175cff;
+}
+
+.raf-btn--light::before {
+  background: linear-gradient(135deg, #ffffff 50%, transparent 50.01%);
 }
 
 /**
@@ -58,14 +92,18 @@
     width: 40px;
 }
 
-.raf-btn--hamburger::before,
-.raf-btn--hamburger::after {
-    content: "";
+/**
+ * Hamburger Icon
+ */
+.raf-btn--hamburger-icon {
+    background-clip: content-box;
+    padding: 6px 0;
+    transition: background-color 0.4s ease;
 }
 
-.raf-btn--hamburger::before,
-.raf-btn--hamburger::after,
-.raf-btn--hamburger span {
+.raf-btn--hamburger-icon,
+.raf-btn--hamburger-icon::before,
+.raf-btn--hamburger-icon::after {
     background-color: #1d60ff;
     display: block;
     height: 3px;
@@ -73,32 +111,39 @@
     transition-property: transform, opacity;
 }
 
-.raf-btn--hamburger::before,
-.raf-btn--hamburger span {
-    margin-bottom: 3px;
+.raf-btn--hamburger-icon::before,
+.raf-btn--hamburger-icon::after {
+    content: "";
+}
+
+.raf-btn--hamburger-icon::before {
+    transform: translateY(-8px);
+}
+
+.raf-btn--hamburger-icon::after {
+    transform: translateY(4px);
 }
 
 /* hover state variant */
-.raf-btn--hamburger:hover::before,
-.raf-btn--hamburger:hover::after,
-.raf-btn--hamburger:hover span {
+.raf-btn--hamburger:hover .raf-btn--hamburger-icon,
+.raf-btn--hamburger:hover .raf-btn--hamburger-icon::before,
+.raf-btn--hamburger:hover .raf-btn--hamburger-icon::after {
     background-color: #fff;
 }
 
 /* open state variatiant */
-.raf-btn--hamburger[nav-open]::before {
+.raf-btn--hamburger[nav-open] .raf-btn--hamburger-icon::before {
     transform: rotate(45deg);
-    transform-origin: 5px 3px;
+    transform-origin: 12px 0px;
 }
 
-.raf-btn--hamburger[nav-open]::after {
+.raf-btn--hamburger[nav-open] .raf-btn--hamburger-icon::after {
     transform: rotate(-45deg);
-    transform-origin: 2px -2px;
+    transform-origin: 6px 0;
 }
 
-.raf-btn--hamburger[nav-open] span {
-    opacity: 0;
-    transform: translateX(-100%);
+.raf-btn--hamburger[nav-open] .raf-btn--hamburger-icon {
+    background-color: transparent;
 }
 
 /**
@@ -106,11 +151,10 @@
  */
  .raf-btn--arrow {
     height: 40px;
-    position: relative;
     width: 40px;
  }
 
-.raf-btn--arrow::before {
+.raf-btn--arrow-icon::before {
     background-color: #1d60ff;
     content: "";
     height: 16px;
@@ -121,7 +165,7 @@
     transform: translate3d(-50%, -50%, 0);
 }
 
-.raf-btn--arrow::after {
+.raf-btn--arrow-icon::after {
     border: solid #1d60ff;
     border-width: 2px 0 0 2px;
     content: "";
@@ -134,15 +178,16 @@
 }
 
 /* hover state variant */
-.raf-btn--arrow:hover::before {
-    background-color: #fff;
+.raf-btn--arrow:hover .raf-btn--arrow-icon::before {
+    background-color: #ffffff;
 }
 
-.raf-btn--arrow:hover::after {
-    border-color: #fff;
+.raf-btn--arrow:hover .raf-btn--arrow-icon::after {
+    border-color: #ffffff;
 }
 
 /* down arrow variant */
-.raf-btn--arrow--down {
+.raf-btn--arrow--down-icon] {
+    position: relative;
     transform: rotate(180deg);
 }
