@@ -64,28 +64,6 @@
     }   
 }
 
-/**
- * About Image - Mountain
- */
-.raf-landing-about__image--mountain {
-    left: 0;
-    opacity: 0.7;
-    position: absolute;
-    top: 0;
-}
-
-@media (min-width: 768px) {
-    .raf-landing-about__image--mountain {
-        transform: translate3d(56px, 56px, 0);
-    }   
-}
-
-@media (min-width: 1288px) {
-    .raf-landing-about__image--mountain {
-        transform: translate3d(104px, 104px, 0);
-    }   
-}
-
 /*
  * About Heading
  */
