@@ -99,7 +99,7 @@
  * Star Wars Section
  */
 .raf-landing-sw {
-    background-image: url('/public/images/bg_text_2.jpg'),
+    background-image: url('/public/images/bg_text_2.png'),
         url('/public/images/work_1_bg.jpg');
     background-position: right 850px top, left 500px center;
 }
@@ -273,7 +273,7 @@
  * NDS Section
  */
 .raf-landing-nds {
-    background-image: url('/public/images/bg_text_3.jpg');
+    background-image: url('/public/images/bg_text_3.png');
     background-position: right 850px bottom 75px;
 
 }
@@ -328,7 +328,7 @@
  * Contact Section
  */
 .raf-landing-contact { 
-    background-image: url('/public/images/bg_text_4.jpg');
+    background-image: url('/public/images/bg_text_4.png');
     background-position: left 1000px bottom 75px;
 }
 
