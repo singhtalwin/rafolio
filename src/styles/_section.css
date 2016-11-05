@@ -10,15 +10,9 @@
     padding-top: 75px;
 }
 
-@media (min-width: 768px) {
-    .raf-section {
-        padding-bottom: 110px;
-    }
-}
-
 @media (min-width: 1288px) {
     .raf-section {
-        padding-bottom: 150px;
+        padding-bottom: 70px;
     }
 
     .raf-section:not(:first-child) {
@@ -69,7 +63,7 @@
 
 @media (min-width: 1288px) {
     .raf-section__heading {
-        width: 700px;   
+        width: 700px;
     }
 }
 
