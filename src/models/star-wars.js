@@ -1,4 +1,5 @@
 module.exports = {
+    title: 'Star Wars Battlefront Planets',
     credits: {
         title: 'Credits',
         items: [

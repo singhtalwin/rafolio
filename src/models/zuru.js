@@ -1,4 +1,5 @@
 module.exports = {
+    title: 'Zuru',
     credits: {
         title: 'Credits',
         items: [
