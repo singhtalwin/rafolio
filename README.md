@@ -3,12 +3,15 @@ Raf Tan Portfolio
 
 # Environment Setup
 * node
+* forever
 * bower
 * gulp
 
 # NPM Instructions
 * `npm run dev` for development
-* `npm start` for production
+* `PORT=8080 npm run start` for server dev
+* `sudo npm run start` for server prod
+
 
 # Gulp
 * `gulp` for development
