@@ -9,7 +9,7 @@
  * Landing Section
  */
 .raf-landing-section {
-    align-items: center;
+    align-items: flex-start;
     background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
