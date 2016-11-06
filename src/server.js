@@ -1,4 +1,5 @@
 // server.js
+
 const compression = require('compression');
 const express = require('express');
 const app = express();
@@ -17,6 +18,7 @@ app.use(compression());
 // set the public root
 app.use('/public', express.static('public'));
 app.use('/build', express.static('build'));
+app.use(express.static('misc'))
 
 Object.keys(routes).forEach((key) => {
     const route = routes[key];
