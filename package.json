@@ -6,8 +6,9 @@
   "scripts": {
     "preinstall": "bower install",
     "dev": "nodemon --exec babel-node src/server.js",
-    "prestart": "babel src --out-dir dist",
-    "start": "node dist/server.js",
+    "prestart": "babel src --out-dir dist && gulp prod --env=prod",
+    "restart": "npm run prestart && forever restart dist/server.js",
+    "start": "forever start dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
