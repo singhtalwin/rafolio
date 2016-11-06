@@ -1,10 +1,11 @@
+const landing = require('./landing');
 const nds = require('./nds');
 const starWars = require('./star-wars');
 const zuru = require('./zuru');
 
 module.exports = {
     landing: {
-        model: {},
+        model: landing,
         path: '/',
         view: 'pages/landing'
     },

@@ -1,4 +1,5 @@
 module.exports = {
+    title: 'Network Design System',
     credits: {
         title: 'Credits',
         items: [
