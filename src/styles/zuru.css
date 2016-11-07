@@ -6,7 +6,7 @@
     background-image: url('/public/images/zuru_overview_bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 /**
