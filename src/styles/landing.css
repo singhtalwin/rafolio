@@ -20,6 +20,7 @@
  * About Section
  */
 .raf-landing-about {
+    align-items: center;
     background-image: url('/public/images/bg_text_1.png');
     background-position: right center;
 }
@@ -85,6 +86,13 @@
 @media (min-width: 768px) {
     .raf-landing-sw {
         flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-landing-sw {
+        background-position: left top, right center;
     }
 }
 
