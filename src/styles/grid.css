@@ -6,7 +6,7 @@
 
 @media (min-width: 768px) {
     .raf-container {
-        padding-left: calc(50% - 325px);
+        padding-left: calc(50% - 325px);        
         padding-right: calc(50% - 325px);
     }
 }

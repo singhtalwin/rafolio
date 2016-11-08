@@ -52,7 +52,7 @@
     .raf-btn--with-text {
         font-size: 18px;
         line-height: 24px;
-    }
+    }   
 }
 
 /* light varaint */
@@ -80,17 +80,11 @@
 /* active link variant */
 .raf-text-link:active,
 .raf-text-link[active] {
-    color: #175cff;
-    text-decoration:none;
+    color: #b6b6b6;
 }
 
-.raf-text {
-    color: #d8d8d8;
-    text-decoration: none;
-}
-
-/**
- * Hamburger Button
+/** 
+ * Hamburger Button 
  */
 .raf-btn--hamburger {
     display: flex;
