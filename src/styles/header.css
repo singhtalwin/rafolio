@@ -41,6 +41,10 @@
 /**
  * Nav Link
  */
+ .raf-header-nav__link{
+     margin-bottom: 24px;
+ }
+
 .raf-header-nav__link:first-child {
     margin-bottom: 36px;
 }

@@ -2,7 +2,7 @@
  * Star Wars Overview
  */
 .raf-sw-overview {
-    
+
 }
 
 /**
@@ -29,6 +29,18 @@
     display: inline-block;
     position: relative;
     text-align: center;
+}
+
+@media (min-width: 1288px) {
+    .raf-sw-challenge__images {
+      padding-bottom: 140px;
+    }
+}
+
+@media (min-width: 768px) {
+    .raf-sw-challenge__images {
+      padding-bottom: 70px;
+    }
 }
 
 /**
@@ -72,6 +84,18 @@
     max-width: 36%;
     position: absolute;
     transform: translate3d(-50%, 50%, 0);
+}
+
+@media (min-width:1288px) {
+  .raf-sw-challenge__image:nth-child(4){
+        padding-bottom: 250px;
+  }
+}
+
+@media (min-width:768px) {
+  .raf-sw-challenge__image:nth-child(4){
+        padding-bottom: 140px;
+  }
 }
 
 /**
@@ -178,7 +202,7 @@
  .raf-sw-inspiration__item {
      margin-bottom: 36px;
  }
- 
+
  @media (min-width: 1288px) {
      .raf-sw-inspiration__item {
          margin-bottom: 56px;
@@ -191,5 +215,3 @@
 .raf-sw-inspiration__item-title {
     margin-bottom: 0;
 }
-
-

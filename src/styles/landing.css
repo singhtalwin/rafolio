@@ -29,7 +29,7 @@
     .raf-landing-about {
         background-position: right center;
     }
-}
+
 
 /*
  * About Text
@@ -68,6 +68,8 @@
 @media (min-width: 1288px) {
     .raf-landing-about__image {
         width: 592px;
+        margin-left: 112px;
+        margin-top: -70px;
     }
 }
 
@@ -237,6 +239,7 @@
 @media (min-width: 1288px) {
     .raf-landing-zuru__image {
         width: 488px;
+        margin-left: 88px;
     }
 }
 
@@ -275,6 +278,7 @@
 
 @media (min-width: 1288px) {
     .raf-landing-nds__text {
+        margin-right: 108px;
         width: 488px;
     }
 }
@@ -295,7 +299,7 @@
 
 @media (min-width: 1288px) {
     .raf-landing-nds__image {
-        margin-right: 240px;
+        margin-right: 132px;
         width: 488px;
     }
 }
