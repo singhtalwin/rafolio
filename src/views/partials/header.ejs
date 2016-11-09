@@ -1,0 +1,21 @@
+<!-- src/views/partials/headers.ejs -->
+<header class="raf-header">
+    <nav class="raf-header-nav">
+        <a class="raf-btn raf-btn--hamburger raf-header-nav__btn"><span class="raf-btn--hamburger-icon"></span></a>
+        <div class="raf-header-nav__links-list">
+            <h3 class="raf-header-nav__link"><a class="raf-text-link" href="<%= routes.landing.path %>">About Me</a></h3>
+            <!-- <h3 class="raf-header-nav__link"><a class="raf-text">Case Studies</a></h3> -->
+            <h3 class="raf-header-nav__link"><a class="raf-text-link" href="<%= routes.starWars.path %>">1.Planets</a></h3>
+            <h3 class="raf-header-nav__link"><a class="raf-text-link" href="<%= routes.zuru.path %>">2.Zuru</a></h3>
+            <h3 class="raf-header-nav__link"><a class="raf-text-link" href="<%= routes.nds.path %>">3.NDS</a></h3>
+        </div>
+    </nav>
+</header>
+
+<aside>
+    <nav id="raf-sub-nav" class="raf-sub-nav">
+        <template id="raf-sub-nav__item--template">
+            <a href="#" class="raf-sub-nav__item"></a>
+        </template>
+    </nav>
+</aside>

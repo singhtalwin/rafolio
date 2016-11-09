@@ -1,0 +1,52 @@
+/**
+ * Footer
+ */
+.raf-footer {
+    background-color: #ffffff;
+    color: #b6b6b6;
+    padding-bottom: 60px;
+    padding-top: 80px;
+    position: relative;
+}
+
+@media (min-width: 1288px) {
+    .raf-footer {
+        padding-bottom: 80px;
+        padding-top: 100px;
+    }
+}
+
+/**
+ * Back To Top Button
+ */
+.raf-footer__back-to-top {
+    display: none;
+    left: 36px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/**
+ * Footer Content Section
+ */
+.raf-footer__content-section {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1288px) {
+    .raf-footer__content-section {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+/**
+ * Footer Copy
+ */
+.raf-footer__copy {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}

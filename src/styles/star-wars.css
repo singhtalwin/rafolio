@@ -1,0 +1,217 @@
+/**
+ * Star Wars Overview
+ */
+.raf-sw-overview {
+
+}
+
+/**
+ * Overview Image
+ */
+.raf-sw-overview__image {
+    background-image: url('/public/images/swbf_overview_bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+/**
+ * Star Wars Challenge
+ */
+.raf-sw-challenge {
+    padding-top: 0;
+}
+
+/**
+ * Challenge Images
+ */
+.raf-sw-challenge__images {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+@media (min-width: 1288px) {
+    .raf-sw-challenge__images {
+      padding-bottom: 140px;
+    }
+}
+
+@media (min-width: 768px) {
+    .raf-sw-challenge__images {
+      padding-bottom: 70px;
+    }
+}
+
+
+/**
+ * Challenge Image
+ */
+.raf-sw-challenge__image:nth-child(1) {
+    max-width: 227px;
+}
+
+@media (min-width: 768px) {
+    .raf-sw-challenge__image:nth-child(1) {
+        max-width: 536px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-sw-challenge__image:nth-child(1) {
+        max-width: 800px;
+    }
+}
+
+.raf-sw-challenge__image:nth-child(2) {
+    left: 0;
+    max-width: 35%;
+    position: absolute;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.raf-sw-challenge__image:nth-child(3) {
+    max-width: 20%;
+    position: absolute;
+    right: 0;
+    top: 25%;
+    transform: translate3d(50%, -50%, 0);
+}
+
+.raf-sw-challenge__image:nth-child(4) {
+    bottom: 0;
+    left: 50%;
+    max-width: 36%;
+    position: absolute;
+    transform: translate3d(-50%, 50%, 0);
+}
+@media (min-width:1288px) {
+  .raf-sw-challenge__image:nth-child(4){
+        padding-bottom: 250px;
+  }
+}
+
+@media (min-width:768px) {
+  .raf-sw-challenge__image:nth-child(4){
+        padding-bottom: 140px;
+  }
+}
+/**
+ * Star Wars Design
+ */
+.raf-sw-design {
+    background-color: #ffffff;
+}
+
+/**
+ * Design Items
+ */
+.raf-sw-design__items {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 1288px) {
+    .raf-sw-design__items {
+        justify-content: space-between;
+        text-align: left;
+    }
+}
+
+/**
+ * Design Item
+ */
+.raf-sw-design__item {
+    margin-bottom: 36px;
+}
+
+@media (min-width: 768px) {
+    .raf-sw-design__item {
+        margin-bottom: 44px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-sw-design__item {
+        margin-bottom: 60px;
+    }
+}
+
+/**
+ * Design Item Title
+ */
+.raf-sw-design__item-title {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 1288px) {
+    .raf-sw-design__item--modal {
+        margin-bottom: 0;
+        margin-top: -175px;
+    }
+}
+
+.raf-sw-design__item--modal__image {
+    box-shadow: 0 5px 10px 0px rgba(0,0,0,0.4);
+    border-radius: 15px;
+}
+
+@media (min-width: 1288px) {
+    .raf-sw-design__item--timeline,
+    .raf-sw-design__item--modal {
+        flex-basis: 950px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-sw-design__item--chew {
+        margin-bottom: 0;
+        margin-top: -175px;
+    }
+}
+
+/**
+ * Inspiration Section
+ */
+.raf-sw-inspiration {
+    background-color: #f2f2f2;
+}
+
+/**
+ * Inspiration Items
+ */
+.raf-sw-inspiration__items {
+    align-items: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 1288px) {
+    .raf-sw-inspiration__items {
+        text-align: left;
+    }
+}
+
+/**
+ * Inspiration Item
+ */
+ .raf-sw-inspiration__item {
+     margin-bottom: 36px;
+ }
+
+ @media (min-width: 1288px) {
+     .raf-sw-inspiration__item {
+         margin-bottom: 56px;
+     }
+ }
+
+/**
+ * Inspiration Item Title
+ */
+.raf-sw-inspiration__item-title {
+    margin-bottom: 0;
+}

@@ -1,0 +1,102 @@
+/**
+ * NDS Page
+ */
+.raf-nds-page {
+    padding-top: 0;
+}
+
+/**
+ * NDS Overview
+ */
+.raf-nds-overview {
+    background-image: url('/public/images/nds_overview_bg_pattern.jpg');
+    padding-top: 12rem;
+}
+
+@media (min-width: 1288px) {
+    .raf-nds-overview {
+        padding-top: 14rem;
+    }
+}
+
+/*
+ * Board Section
+ */
+.raf-nds-board {
+    background-image: url('/public/images/nds_bb_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    padding-bottom: 0;
+}
+
+/**
+ * Example Section
+ */
+.raf-nds-exmaple {
+    background-color: #f2f2f2;
+}
+
+/**
+ * Example Images
+ */
+.raf-nds-exmaple__image-example:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+@media (min-width: 1288px) {
+    .raf-nds-exmaple__image-example:not(:last-child) {
+        margin-bottom: 80px; 
+    }
+}
+
+/**
+ * Work Section
+ */
+.raf-nds-work {
+    background-color: #ff1933;
+    background-image: url('/public/images/nds_work_bg.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+/**
+ * Work Images
+ */
+.raf-nds-work__image {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media (min-width: 1288px) {
+    .raf-nds-work__image {
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+    }
+}
+
+.raf-nds-work__image-work {
+    margin-bottom: 40px;
+}
+
+@media (min-width: 1288px) {
+    .raf-nds-work__image-work {
+        margin-bottom: 80px; 
+    }
+}
+
+.raf-nds-work__image:last-child .raf-nds-work__image-work:last-child {
+    margin-bottom: 0;
+}
+
+/**
+ * Work Title
+ */
+.raf-nds-work__title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,359 @@
+/**
+ * Landing Page
+ */
+.raf-landing-page {
+
+}
+
+/**
+ * Landing Section
+ */
+.raf-landing-section {
+    align-items: flex-start;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+/*
+ * About Section
+ */
+.raf-landing-about {
+    align-items: center;
+    background-image: url('/public/images/bg_text_1.png');
+    background-position: left 850px center;
+}
+
+@media (min-width: 1288px) {
+    .raf-landing-about {
+        background-position: right center;
+    }
+}
+
+/*
+ * About Text
+ */
+.raf-landing-about__text {
+    position: relative;
+    z-index: 1;
+}
+
+@media (min-width: 768px) {
+    .raf-landing-about__text {
+        margin-right: 24px;
+        width: 312px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-landing-about__text {
+        width: 488px;
+    }
+}
+
+/*
+ * About Image
+ */
+.raf-landing-about__image {
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .raf-landing-about__image {
+        width: 312px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-landing-about__image {
+        width: 592px;
+        margin-left: 112px;
+        margin-top: -70px;
+    }
+}
+
+/*
+ * About Heading
+ */
+@media (min-width: 1288px) {
+    .raf-landing-about__heading {
+        width: 696px;
+    }
+}
+
+/**
+ * Star Wars Section
+ */
+.raf-landing-sw {
+    background-image: url('/public/images/bg_text_2.png'),
+        url('/public/images/work_1_bg.jpg');
+    background-position: right 850px top, left 500px center;
+}
+
+@media (min-width: 768px) {
+    .raf-landing-sw {
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-landing-sw {
+        background-position: left top, right center;
+    }
+}
+
+/*
+ * Star Wars Text
+ */
+.raf-landing-sw__text {
+
+}
+
+@media (min-width: 768px) {
+    .raf-landing-sw__text {
+        width: 312px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-landing-sw__text {
+        margin-right: 24px;
+        width: 488px;
+    }
+}
+
+/*
+ * Star Wars Image
+ */
+.raf-landing-sw__image {
+
+}
+
+@media (min-width: 768px) {
+    .raf-landing-sw__image {
+        margin-right: 80px;
+        width: 256px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-landing-sw__image {
+        margin-right: 132px;
+        width: 488px;
+    }
+}
+
+/*
+ * Zuru Section
+ */
+.raf-landing-zuru {
+    color: #222222;
+    overflow: hidden;
+    position: relative;
+}
+
+/**
+ * Zuru Section Background
+ */
+.raf-landing-zuru-bg,
+.raf-landing-zuru-fg {
+    position: absolute;
+    z-index: -2
+}
+
+.raf-landing-zuru-bg {
+    left: 0;
+    max-width: 100%;
+    top: 25px;
+}
+
+.raf-landing-zuru-fg {
+    left: 50%;
+    top: 45%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 410px;
+}
+
+@media (min-width:768px) {
+    .raf-landing-zuru-fg {
+        width: 450px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-landing-zuru-fg {
+        width: 600px;
+    }
+}
+
+
+/*
+ * Zuru Text
+ */
+.raf-landing-zuru__text {
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .raf-landing-zuru__text {
+        margin-right: 45px;
+        width: 312px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-landing-zuru__text {
+        width: 488px;
+    }
+}
+
+/**
+ * Zuru Heading
+ *
+ */
+.raf-landing-zuru__heading::after {
+    background-color: #222222;
+}
+
+/*
+ * Zuru Image
+ */
+.raf-landing-zuru__image {
+
+}
+
+@media (max-width: 767px) {
+    .raf-landing-zuru__image {
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 768px) {
+    .raf-landing-zuru__image {
+        width: 256px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-landing-zuru__image {
+        width: 488px;
+        margin-left:88px;
+    }
+}
+
+/*
+ * NDS Section
+ */
+.raf-landing-nds {
+    background-image: url('/public/images/bg_text_3.png');
+    background-position: right 850px bottom 75px;
+}
+
+@media (min-width: 1288px) {
+    .raf-landing-nds {
+        background-position: left bottom 75px;
+    }
+}
+
+@media (min-width: 768px) {
+    .raf-landing-nds {
+        flex-direction: row-reverse;
+    }
+}
+
+/*
+ * NDS Text
+ */
+.raf-landing-nds__text {
+
+}
+
+@media (min-width: 768px) {
+    .raf-landing-nds__text {
+        width: 312px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-landing-nds__text {
+        margin-right: 108px;
+        width: 488px;
+    }
+}
+
+/*
+ * NDS Image
+ */
+.raf-landing-nds__image {
+
+}
+
+@media (min-width: 768px) {
+    .raf-landing-nds__image {
+        margin-right: 82px;
+        width: 256px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-landing-nds__image {
+        margin-right: 132px;
+        width: 488px;
+    }
+}
+
+/*
+ * Contact Section
+ */
+.raf-landing-contact {
+    background-image: url('/public/images/bg_text_4.png');
+    background-position: left 800px bottom 75px;
+}
+
+@media (min-width: 1288px) {
+    .raf-landing-contact {
+        background-position: right bottom 75px;
+    }
+}
+
+/*
+ * Contact Text
+ */
+.raf-landing-contact__text {
+
+}
+
+@media (min-width: 768px) {
+    .raf-landing-contact__text {
+        margin-right: 82px;
+        width: 312px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-landing-contact__text {
+        margin-right: 140px;
+        width: 488px;
+    }
+}
+
+/*
+ * Contact Image
+ */
+.raf-landing-contact__image {
+
+}
+
+@media (min-width: 768px) {
+    .raf-landing-contact__image {
+        width: 256px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-landing-contact__image {
+        width: 488px;
+    }
+}

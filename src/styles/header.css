@@ -1,0 +1,86 @@
+/**
+ * Nav Links List
+ */
+ .raf-header-nav__links-list {
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    overflow-y: auto;
+    padding: 100px 40px;
+    position: fixed;
+    top: 0;
+    transform: translateX(-120%);
+    transition: transform 0.4s ease-in;
+    width: 100%;
+ }
+
+@media (min-width: 768px) {
+    .raf-header-nav__links-list {
+        align-items: flex-start;
+        width: 360px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-header-nav__links-list {
+        width: 480px;
+    }
+}
+
+/* nav open variant */
+.raf-header-nav__links-list[open] {
+    transform: translateX(0);
+}
+
+/**
+ * Nav Link
+ */
+
+ .raf-header-nav__link{
+    margin-bottom: 16px;
+}
+.raf-header-nav__link:first-child {
+    margin-bottom: 36px;
+}
+
+@media (min-width: 1288px) {
+    .raf-header-nav__link:first-child {
+        margin-bottom: 72px;
+    }
+}
+
+/**
+ * Nav
+ */
+.raf-header-nav {
+    left: 0;
+    padding: 32px;
+    position: fixed;
+    top: 0;
+    transition: background-color 0.4s;
+    width: 100%;
+    z-index: 101;
+}
+
+/* overlayed variant */
+@media (max-width: 767px) {
+    .raf-header-nav[overlayed] {
+        background-color: #f2f2f2;
+        box-shadow: 0 0px 4px 0px rgba(0,0,0,0.4);
+    }
+}
+
+/**
+ * Nav Button
+ */
+.raf-header-nav__btn {
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1;
+}

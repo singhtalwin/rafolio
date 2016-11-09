@@ -1,0 +1,77 @@
+/*
+ * Section
+ */
+.raf-section {
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+
+.raf-section:not(:first-child) {
+    padding-top: 75px;
+}
+
+@media (min-width: 1288px) {
+    .raf-section {
+        padding-bottom: 120px;
+    }
+
+    .raf-section:not(:first-child) {
+        padding-top: 113px;
+    }
+}
+
+/* centered variant */
+.raf-section--centred {
+    text-align: center;
+}
+
+/*
+ * Section Copy
+ */
+.raf-section__copy {
+    margin: 0 auto 55px auto;
+}
+
+@media (min-width: 768px) {
+    .raf-section__copy {
+        margin-bottom: 75px;
+        width: 500px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-section__copy {
+        margin-bottom: 115px;
+        width: 800px;
+    }
+}
+
+/**
+ * Section Heading
+ */
+.raf-section__heading {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+@media (min-width: 768px) {
+    .raf-section__heading {
+        width: 500px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-section__heading {
+        width: 700px;
+    }
+}
+
+.raf-fadeded-item {
+    opacity: 0;
+    transition: opacity 0.4s 0.1s ease;
+}
+
+.raf-fadeded-item[show-faded-item] {
+    opacity: 1;
+}
