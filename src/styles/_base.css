@@ -7,8 +7,10 @@ html {
 }
 
 html,
-body {  
+body {
     height: 100%;
+    margin:0px;
+    padding:0px;
 }
 
 body {
@@ -26,8 +28,8 @@ main {
     }
 }
 
-h1, 
-h2, 
+h1,
+h2,
 h3,
 h4,
 h5,
