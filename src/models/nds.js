@@ -26,7 +26,7 @@ module.exports = {
         ]
     },
     footer: {
-        prev: '/star-wars',
-        next: '/zuru'
+        prev: '/zuru',
+        next: '/star-wars'
     }
 };
