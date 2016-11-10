@@ -160,6 +160,7 @@
  .raf-btn--arrow {
     height: 40px;
     width: 40px;
+    margin-right: 20px;
  }
 
 .raf-btn--arrow-icon::before {
