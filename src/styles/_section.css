@@ -2,7 +2,7 @@
  * Section
  */
 .raf-section {
-    padding-bottom: 35px;
+    padding-bottom: 70px;
     padding-top: 40px;
 }
 
@@ -12,7 +12,7 @@
 
 @media (min-width: 1288px) {
     .raf-section {
-        padding-bottom: 70px;
+        padding-bottom: 120px;
     }
 
     .raf-section:not(:first-child) {
@@ -52,7 +52,6 @@
 .raf-section__heading {
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
 }
 
 @media (min-width: 768px) {

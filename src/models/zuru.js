@@ -9,5 +9,5 @@ module.exports = {
             { label: 'UX Designer', text: 'Lyndon Mayer' },
             { label: 'Date', text: 'October 2015' }
         ]
-    }
+  }
 };

@@ -8,7 +8,7 @@ Raf Tan Portfolio
 * gulp
 
 # NPM Instructions
-* `npm run dev` for development
+* `sudo npm run dev` for development
 * `PORT=8080 npm run start` for server dev
 * `sudo npm run start` for server prod
 

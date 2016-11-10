@@ -7,11 +7,12 @@
     top: 50%;
     transform: translateY(-50%);
     z-index: 10;
+    display:none;
 }
 
-@media (max-width: 1287px) {
+@media (min-width: 1380px) {
     .raf-sub-nav {
-        display: none;
+        display: inline;
     }
 }
 
@@ -20,7 +21,6 @@
  */
 .raf-sub-nav__item {
     background-clip: content-box;
-    background-color: #ffffff;
     box-sizing: border-box;
     display: block;
     height: 16px;
