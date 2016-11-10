@@ -29,9 +29,5 @@ module.exports = {
                 text: 'Visit duration'
             }
         ]
-    },
-    footer:{
-      prev:'/zuru',
-      next:'/nds'
     }
 };
