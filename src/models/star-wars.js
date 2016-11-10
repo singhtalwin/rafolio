@@ -31,7 +31,7 @@ module.exports = {
         ]
     },
     footer: {
-        prev: '/zuru',
-        next: '/nds'
+        prev: '/nds',
+        next: '/zuru'
     }
 };
