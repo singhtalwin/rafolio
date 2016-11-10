@@ -17,11 +17,6 @@ module.exports = {
                 label: '30',
                 image: '/public/images/nds_icon_1.jpg',
                 text: 'Components'
-            },
-            {
-                label: 'Flexible',
-                image: '/public/images/nds_icon_2.jpg',
-                text: 'Components'
             }
         ]
     }
