@@ -9,5 +9,9 @@ module.exports = {
             { label: 'UX Designer', text: 'Lyndon Mayer' },
             { label: 'Date', text: 'October 2015' }
         ]
+    },
+    footer: {
+        prev: '/star-wars',
+        next: '/nds'
     }
 };

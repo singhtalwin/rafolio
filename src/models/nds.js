@@ -24,5 +24,9 @@ module.exports = {
                 text: 'Components'
             }
         ]
+    },
+    footer: {
+        prev: '/zuru',
+        next: '/star-wars'
     }
 };
