@@ -14,5 +14,4 @@ module.exports = {
         prev: '/star-wars',
         next: '/nds'
     }
-  }
 };
