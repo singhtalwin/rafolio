@@ -214,6 +214,14 @@
     transform: translate3d(-50%, -50%, 0) rotate(90deg);
 }
 
+.raf-btn--arrow--left-icon::after {
+     top: 11px;
+     transform: rotate(310deg);
+}
+.raf-btn--arrow--right-icon::before {
+     transform: translate3d(-50%, -50%, 0) rotate(90deg);
+}
+
 /* right arrow variant */
 .raf-btn--arrow--right-icon::after {
     top: 11px;
