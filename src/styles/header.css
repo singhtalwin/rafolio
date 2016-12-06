@@ -46,12 +46,12 @@
  .raf-header-nav__link{
     margin-bottom: 10px;
 }
-.raf-header-nav__link:nth-child(2) {
+.raf-header-nav__link:nth-child(2){
     margin-bottom: 24px;
 }
 
 @media (min-width: 1288px) {
-    .raf-header-nav__link:nth-child(2) {
+    .raf-header-nav__link:nth-child(2){
         margin-bottom: 36px;
     }
 }

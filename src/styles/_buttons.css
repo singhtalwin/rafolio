@@ -140,7 +140,7 @@
 }
 
 /* open state variatiant */
-.raf-btn[nav-open]{
+/*.raf-btn[nav-open]{
 }
 
 @media (min-width:768px){
@@ -155,7 +155,7 @@
       transform:translateX(380px);
       transition: transform 0.38s ease-in;
   }
-}
+}*/
 
 .raf-btn--hamburger[nav-open] .raf-btn--hamburger-icon::before {
     transform: rotate(45deg);
@@ -267,8 +267,14 @@
 }
 
 .raf-text-link-blue{
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
   color: #175cff;
+  position: absolute;
   text-decoration: none;
+  top:33px;
+  left:90px;
 }
 
 .nav-bottom{
@@ -276,9 +282,10 @@
   bottom: 30px;
 }
 
-.nav-top{
-  position: absolute;;
-  top: 40px;
+.nav-right{
+  float:right;
+  position: absolute;
+  right:70px;
 }
 
 .raf-nav-text-link{
