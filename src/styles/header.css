@@ -1,10 +1,11 @@
 /**
  * Nav Links List
  */
+
  .raf-header-nav__links-list {
     align-items: center;
     background-color: #ffffff;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    /*box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);*/
     box-sizing: border-box;
     bottom: 0;
     display: flex;
@@ -23,13 +24,13 @@
 @media (min-width: 768px) {
     .raf-header-nav__links-list {
         align-items: flex-start;
-        width: 360px;
+        width: 50%;
     }
 }
 
 @media (min-width: 1288px) {
     .raf-header-nav__links-list {
-        width: 480px;
+        width: 40%;
     }
 }
 
@@ -43,15 +44,15 @@
  */
 
  .raf-header-nav__link{
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
-.raf-header-nav__link:first-child {
-    margin-bottom: 36px;
+.raf-header-nav__link:nth-child(2){
+    margin-bottom: 24px;
 }
 
 @media (min-width: 1288px) {
-    .raf-header-nav__link:first-child {
-        margin-bottom: 72px;
+    .raf-header-nav__link:nth-child(2){
+        margin-bottom: 36px;
     }
 }
 

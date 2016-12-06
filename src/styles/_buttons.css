@@ -87,8 +87,9 @@
 
 /* active link variant */
 .raf-text-link:active,
+.raf-text-link:hover,
 .raf-text-link[active] {
-    color: #d8d8d8;
+    color: #175cff;
 }
 
 /**
@@ -140,6 +141,23 @@
 }
 
 /* open state variatiant */
+/*.raf-btn[nav-open]{
+}
+
+@media (min-width:768px){
+  .raf-btn[nav-open]{
+      transform:translateX(250px);
+      transition: transform 0.38s ease-in;
+  }
+}
+
+@media (min-width:1288px){
+  .raf-btn[nav-open]{
+      transform:translateX(380px);
+      transition: transform 0.38s ease-in;
+  }
+}*/
+
 .raf-btn--hamburger[nav-open] .raf-btn--hamburger-icon::before {
     transform: rotate(45deg);
     transform-origin: 12px 0px;
@@ -230,4 +248,52 @@
 .h2-text-links{
   text-decoration: none;
   color: #222222;
+}
+
+/* H3 Text links with icons */
+.raf-text-link-icon:after{
+  content: "";
+  display: block;
+  background: url("/public/images/arrow.png") no-repeat;
+  float: right;
+  width:25px;
+  height:25px;
+  margin: -3px 0 0 10px;
+}
+
+@media (min-width: 1288px) {
+    .raf-text-link-icon:after{
+      margin: 5px 0 0 10px;
+  }
+}
+
+.raf-text-link-blue{
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  color: #175cff;
+  position: absolute;
+  text-decoration: none;
+  top:33px;
+  left:90px;
+}
+
+.nav-bottom{
+  position: absolute;;
+  bottom: 30px;
+}
+
+.nav-right{
+  float:right;
+  position: absolute;
+  right:70px;
+}
+
+.raf-nav-text-link{
+  color:#d8d8d8;
+  text-decoration: none;
+}
+
+.raf-nav-text-link:hover {
+  color:#175cff;
 }

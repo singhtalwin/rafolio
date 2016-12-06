@@ -160,6 +160,33 @@ p {
     }
 }
 
+.raf-nav-underlined{
+  padding-bottom:7px;
+  position:relative;
+}
+
+.raf-nav-underlined::after{
+  background-color: #d8d8d8;
+  bottom: 0;
+  content: "";
+  height: 6px;
+  left: 0;
+  position: absolute;
+  width: 90px;
+}
+
+@media (min-width: 768px) {
+    .raf-nav-underlined::after {
+        width: 115px;
+    }
+}
+
+@media (min-width: 1288px) {
+    .raf-nav-underlined::after {
+        width: 165px;
+    }
+}
+
 /* subheading variant */
 .raf-heading--before-subheading {
     margin-bottom: 10px;

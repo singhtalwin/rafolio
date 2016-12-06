@@ -5,8 +5,8 @@ module.exports = {
         items: [
             { label: 'Agency', text: 'NURUN' },
             { label: 'Art Direction', text: 'Christopher Grose' },
-            { label: 'UI Designer', text: 'Rafael Tan' },
-            { label: 'UX Designer', text: 'Ryan Eves' },
+            /*{ label: 'UI Designer', text: 'Rafael Tan' },
+            { label: 'UX Designer', text: 'Ryan Eves' },*/
             { label: 'Date', text: '2016' }
         ]
     },
@@ -26,7 +26,7 @@ module.exports = {
         ]
     },
     footer: {
-        prev: '/zuru',
-        next: '/star-wars'
+        prev: '/star-wars',
+        next: '/zuru'
     }
 };
