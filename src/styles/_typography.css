@@ -172,18 +172,18 @@ p {
   height: 6px;
   left: 0;
   position: absolute;
-  width: 90px;
+  width: 75px;
 }
 
 @media (min-width: 768px) {
     .raf-nav-underlined::after {
-        width: 115px;
+        width: 95px;
     }
 }
 
 @media (min-width: 1288px) {
     .raf-nav-underlined::after {
-        width: 165px;
+        width: 135px;
     }
 }
 
