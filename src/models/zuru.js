@@ -11,7 +11,7 @@ module.exports = {
         ]
     },
     footer: {
-        prev: '/star-wars',
-        next: '/nds'
+        prev: '/nds',
+        next: '/star-wars'
     }
 };

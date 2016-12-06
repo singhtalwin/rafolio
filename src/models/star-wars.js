@@ -5,8 +5,8 @@ module.exports = {
         items: [
             { label: 'Client', text: 'Electronic Arts' },
             { label: 'Art Direction', text: 'Christopher Grose' },
-            { label: 'UI Designer', text: 'Josh Zak, Rafael Tan' },
-            { label: 'UX Designer', text: 'Lyndon Mayer' },
+            /*{ label: 'UI Designer', text: 'Josh Zak, Rafael Tan' },
+            { label: 'UX Designer', text: 'Lyndon Mayer' },*/
             { label: 'Date', text: 'October 2015' }
         ]
     },
@@ -31,7 +31,7 @@ module.exports = {
         ]
     },
     footer: {
-        prev: '/nds',
-        next: '/zuru'
+        prev: '/zuru',
+        next: '/nds'
     }
 };

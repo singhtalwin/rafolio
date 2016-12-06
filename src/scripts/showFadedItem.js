@@ -23,7 +23,7 @@
                 // fadedItem.removeAttribute('show-faded-item');
             }
         }
-    }, 50);
+    }, 25);
 
     setSectionVisible();
     window.addEventListener('DOMContentLoaded', setSectionVisible);

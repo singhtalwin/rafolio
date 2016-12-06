@@ -80,6 +80,10 @@
         <% } %>
     </main>
 
+    <% if (typeof credits !== 'undefined') { %>
+        <% include ../partials/credits %>
+    <% } %>
+
     <% include ../partials/footer %>
 
 </body>
