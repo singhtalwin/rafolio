@@ -87,6 +87,7 @@
 
 /* active link variant */
 .raf-text-link:active,
+.raf-text-link:hover,
 .raf-text-link[active] {
     color: #175cff;
 }
@@ -262,7 +263,7 @@
 
 @media (min-width: 1288px) {
     .raf-text-link-icon:after{
-      margin: 0 0 0 10px;
+      margin: 5px 0 0 10px;
   }
 }
 
