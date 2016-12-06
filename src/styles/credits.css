@@ -52,7 +52,7 @@
 @media (min-width: 768px) {
     .raf-credits__item {
         flex-basis: 33.33%;
-        text-align: left;
+        text-align: center;
     }
 }
 
